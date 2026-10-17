@@ -64,7 +64,6 @@ gdg.community.dev at build time and the site rebuilds itself every morning.*
         <source media="(prefers-color-scheme: dark)" srcset=".github/assets/events-dark.webp">
         <img src=".github/assets/events-light.webp" alt="Etkinlikler sayfası: Material şekilleri, kategori sayaçları ve sıradaki etkinlik kartı.">
       </picture>
-      <p align="center"><sub><b>Etkinlikler</b>: kategori sayaçları ve geri sayımlı sıradaki etkinlik</sub></p>
     </td>
   </tr>
   <tr>
@@ -143,11 +142,11 @@ build ettiği için liste kendiliğinden güncel kalır.
 
 ## Kurulum
 
-Gerekenler: **Node.js 22+** ve **pnpm**.
+Gerekenler: **Node.js 22+** ve **pnpm**. Bağımlılıkları `npm install` ile değil, `pnpm install` ile kur.
 
 ```bash
 # pnpm yoksa
-corepack enable
+npm install -g pnpm
 
 git clone https://github.com/gdg-dogus/gdg-dou-web-26.git
 cd gdg-dou-web-26
@@ -156,6 +155,15 @@ pnpm dev
 ```
 
 Tarayıcıda http://localhost:3000 açılır ve `/tr`'ye yönlenir.
+
+> [!NOTE]
+> **Windows'ta pnpm kurulmuyorsa:** `EEXIST` hatası alıyorsan ya da daha önce Corepack kullandıysan,
+> terminali yönetici olarak aç ve şunları çalıştır:
+>
+> ```bash
+> corepack disable
+> npm install -g pnpm --force
+> ```
 
 VS Code kullanıyorsan önerilen eklentileri (Biome, Tailwind CSS IntelliSense) kur; kaydettiğinde
 kod otomatik formatlanır.

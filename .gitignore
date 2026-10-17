@@ -46,3 +46,6 @@ next-env.d.ts
 # AI asistanı dosyaları (yerelde kalır, next dev yeniden oluşturur)
 /AGENTS.md
 /CLAUDE.md
+
+# pnpm kullanılıyor; yanlışlıkla npm install çalışırsa oluşan lock dosyası
+package-lock.json
