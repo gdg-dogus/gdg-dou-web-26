@@ -60,14 +60,6 @@ gdg.community.dev at build time and the site rebuilds itself every morning.*
 <table>
   <tr>
     <td colspan="3">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset=".github/assets/events-dark.webp">
-        <img src=".github/assets/events-light.webp" alt="Etkinlikler sayfası: Material şekilleri, kategori sayaçları ve sıradaki etkinlik kartı.">
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="3">
       <img src=".github/assets/event-detail-light.webp" alt="Bir etkinliğin detay sayfası: başlık, tarih, konum ve afiş.">
       <p align="center"><sub><b>Etkinlik detayı</b>: afiş, tarih, konum ve konuşmacılar</sub></p>
     </td>
