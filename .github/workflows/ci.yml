@@ -1,0 +1,33 @@
+# Her PR'da ve main'e her push'ta çalışır. Biri bile kırmızıysa PR merge edilemez
+# (Settings → Branches → main kuralında "Require status checks" açık olmalı).
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Lint, tip, içerik ve build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Biome (lint + format)
+        run: pnpm exec biome ci .
+      - name: TypeScript
+        run: pnpm typecheck
+      - name: İçerik ve çeviriler
+        run: pnpm check:content
+      - name: Build
+        run: pnpm build

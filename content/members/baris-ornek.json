@@ -1,0 +1,14 @@
+{
+  "name": "Barış Örnek",
+  "team": "social",
+  "role": {
+    "tr": "Sosyal Medya & Tasarım Takım Kaptanı",
+    "en": "Social Media & Design Team Captain"
+  },
+  "lead": true,
+  "order": 2,
+  "bio": {
+    "tr": "Topluluğun sosyal medya içeriklerini ve görsel kimliğini yönetir.",
+    "en": "Manages the community's social media content and visual identity."
+  }
+}

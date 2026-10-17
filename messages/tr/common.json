@@ -1,0 +1,54 @@
+{
+  "site": {
+    "name": "GDG on Campus DOU",
+    "university": "Doğuş Üniversitesi",
+    "description": "Doğuş Üniversitesi'nin Google Developer Groups öğrenci topluluğu. Atölyeler, teknik konuşmalar, zirveler ve şirket gezileri."
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "events": "Etkinlikler",
+    "team": "Ekip",
+    "projects": "Projeler",
+    "blog": "Blog",
+    "offers": "Öğrenci teklifleri",
+    "about": "Hakkımızda",
+    "menu": "Menüyü aç",
+    "skip": "İçeriğe geç",
+    "main": "Ana menü"
+  },
+  "theme": {
+    "toggle": "Temayı değiştir"
+  },
+  "locale": {
+    "switch": "Switch to English",
+    "short": "EN"
+  },
+  "footer": {
+    "pages": "Sayfalar",
+    "community": "Topluluk",
+    "joinWhatsapp": "WhatsApp topluluğuna katıl",
+    "source": "Bu site topluluğun web ekibi tarafından açık kaynak olarak geliştiriliyor.",
+    "sourceLink": "Kaynak kodu"
+  },
+  "categories": {
+    "summit": "Zirve",
+    "workshop": "Atölye",
+    "tech_talk": "Teknik konuşma",
+    "trip": "Teknik gezi",
+    "info_session": "Tanışma oturumu",
+    "design": "Tasarım"
+  },
+  "placeholder": {
+    "title": "Bu sayfa yapım aşamasında",
+    "body": "Veriler hazır, tasarımı ve bileşenleri bir sonraki adımda yapılacak. Aşağıdaki liste verilerin doğru okunduğunu göstermek için duruyor."
+  },
+  "notFound": {
+    "title": "Bu sayfa bulunamadı",
+    "body": "Aradığın sayfa taşınmış ya da hiç var olmamış olabilir.",
+    "home": "Ana sayfaya dön"
+  },
+  "zoom": {
+    "open": "{name}, büyüt",
+    "close": "Kapat"
+  }
+}

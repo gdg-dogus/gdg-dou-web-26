@@ -1,0 +1,14 @@
+{
+  "name": "Elif Naz Örnek",
+  "team": "mobile",
+  "role": {
+    "tr": "Mobil Geliştirme Takım Kaptanı",
+    "en": "Mobile Development Team Captain"
+  },
+  "lead": true,
+  "order": 8,
+  "bio": {
+    "tr": "Topluluğun mobil geliştirme projelerine liderlik eder, atölye ve eğitimler organize eder.",
+    "en": "Leads the community's mobile development projects and organizes workshops and trainings."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Etkinlikler",
+    "description": "GDG on Campus DOU'nun yaklaşan ve geçmiş etkinlikleri."
+  },
+  "title": "Etkinlikler",
+  "intro": "Atölyelerden zirvelere, kampüste ve kampüs dışında yaptığımız her şey. Kayıtlar etkinlik sayfasından açılır.",
+  "tabs": {
+    "upcoming": "Yaklaşan",
+    "past": "Geçmiş"
+  },
+  "filter": {
+    "label": "Kategoriye göre filtrele",
+    "all": "Tümü"
+  },
+  "term": {
+    "fall": "{year} Güz dönemi",
+    "spring": "{year} Bahar dönemi",
+    "summer": "{year} Yaz"
+  },
+  "empty": {
+    "upcoming": "Yaklaşan etkinlik henüz duyurulmadı. Duyurular önce Instagram'da ve WhatsApp topluluğunda paylaşılıyor.",
+    "past": "Henüz geçmiş etkinlik yok.",
+    "filtered": "Bu kategoride etkinlik yok.",
+    "clear": "Filtreyi temizle"
+  },
+  "cta": {
+    "title": "Duyuruları kaçırma",
+    "body": "Yeni etkinlikler önce WhatsApp topluluğunda ve Instagram hesabımızda duyuruluyor.",
+    "whatsapp": "WhatsApp topluluğuna katıl",
+    "instagram": "Instagram'da takip et"
+  },
+  "detail": {
+    "back": "Tüm etkinlikler",
+    "date": "Tarih",
+    "time": "Saat",
+    "location": "Konum",
+    "speakers": "Konuşmacılar",
+    "register": "Kayıt ol",
+    "registrationClosed": "Kayıtlar kapandı",
+    "communityPage": "GDG Community sayfası",
+    "calendar": {
+      "label": "Takvime ekle",
+      "google": "Google Takvim",
+      "ics": "Apple / Outlook"
+    },
+    "share": {
+      "label": "Paylaş",
+      "copied": "Link kopyalandı"
+    },
+    "map": {
+      "title": "{location} haritası",
+      "open": "Google Haritalar'da aç"
+    },
+    "related": "Diğer etkinlikler",
+    "about": "Etkinlik hakkında",
+    "info": "Etkinlik bilgileri",
+    "category": "Kategori",
+    "status": {
+      "upcoming": "Yaklaşan",
+      "past": "Gerçekleşti"
+    },
+    "agenda": "Program",
+    "gallery": "Fotoğraflar",
+    "posterAlt": "{title} afişi",
+    "photoAlt": "{title} etkinliğinden fotoğraf {n}"
+  },
+  "stats": {
+    "since": "{year} yılından bu yana {count} etkinlik"
+  },
+  "spotlight": {
+    "upcoming": "Sıradaki etkinlik",
+    "latest": "En son etkinlik",
+    "startsIn": "Başlamasına",
+    "details": "Etkinlik detayı"
+  },
+  "units": {
+    "days": "gün",
+    "hours": "saat",
+    "minutes": "dakika",
+    "seconds": "saniye"
+  }
+}

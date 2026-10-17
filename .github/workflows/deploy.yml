@@ -1,0 +1,54 @@
+# main'e her merge'de ve her sabah GitHub Pages'e yayınlar.
+# Günlük build, gdg.community.dev'deki yeni etkinlikleri ve "yaklaşan/geçmiş"
+# durumunu güncel tutar.
+#
+# İlk kurulum: Settings → Pages → Source: "GitHub Actions"
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 3 * * *" # Her gün 06:17 (Türkiye saati)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - id: pages
+        uses: actions/configure-pages@v6
+      - name: Build
+        run: pnpm build
+        env:
+          # Proje sayfasında "/repo-adı", özel alan adında boş gelir.
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

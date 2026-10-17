@@ -1,0 +1,14 @@
+{
+  "name": "Duru Örnek",
+  "team": "lead",
+  "role": {
+    "tr": "Asistan Organizatör",
+    "en": "Assistant Organizer"
+  },
+  "lead": true,
+  "order": 1,
+  "bio": {
+    "tr": "Organizasyon süreçlerinde koordinasyona destek olur, ekipler arası iletişimi güçlendirir.",
+    "en": "Supports coordination in organization processes and strengthens communication between teams."
+  }
+}

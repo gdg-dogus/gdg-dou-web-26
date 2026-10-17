@@ -1,0 +1,28 @@
+{
+  "slug": "gdg-118229",
+  "gdgId": "118229",
+  "category": "tech_talk",
+  "date": "2026-03-10",
+  "startTime": "10:00",
+  "endTime": "12:00",
+  "title": {
+    "tr": "Kulüp Tanıtım Günleri: GDG on Campus Dogus"
+  },
+  "summary": {
+    "tr": "10 Mart Salı günü, Doğuş Üniversitesi GDG on Campus'un tanıtım standına davetlisiniz! Kulüp Tanıtım Günleri kapsamında a..."
+  },
+  "description": {
+    "tr": "10 Mart Salı günü, Doğuş Üniversitesi GDG on Campus'un tanıtım standına davetlisiniz! Kulüp Tanıtım Günleri kapsamında açacağımız standımızda sizlerle tanışmayı ve topluluğumuzun sunduğu imkanları paylaşmayı heyecanla bekliyoruz. Google Developer Group'un bir parçası olarak, teknoloji ve yazılım geliştirme konularında bilgi alışverişinde bulunmak ve yeni bağlantılar kurmak için mükemmel bir fırsat! Standımızı ziyaret ederek GDG ailemize katılabilir ve sizi bekleyen birçok etkinlik ve projeden haberdar olabilirsiniz. Unutmayın, bu topluluğun bir parçası olmak demek sürekli öğrenmek, gelişmek ve çevrenize değer katmak demektir! Buluşmak üzere, heyecanla bekliyoruz! #GDGoCDoğuşÜniversitesi #TeknolojideGelecekSizsiniz"
+  },
+  "location": {
+    "tr": "Doğuş Üniversitesi, 265 Nato Yolu Caddesi, Ümraniye"
+  },
+  "speakers": [],
+  "agenda": [],
+  "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultEventThumbnail_2_va1kAS9.png",
+  "gallery": [],
+  "registration": {
+    "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-dogus-university-istanbul-turkiye-presents-kulup-tanitim-gunleri-gdg-on-campus-dogus/",
+    "open": true
+  }
+}

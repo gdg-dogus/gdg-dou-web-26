@@ -1,0 +1,25 @@
+{
+  "slug": "info-session-2025-fall",
+  "gdgId": "105544",
+  "category": "info_session",
+  "date": "2025-10-17",
+  "startTime": "13:00",
+  "endTime": "14:00",
+  "title": {
+    "tr": "GDG on Campus DOU Info Session"
+  },
+  "summary": {
+    "tr": "Kulübümüzü tanıttığımız, yeni üyelerle tanıştığımız ve birlikte akran öğrenmesi yaptığımız tanışma oturumu.",
+    "en": "An introductory session where we introduced our club, met new members, and learned from each other."
+  },
+  "description": {
+    "tr": "Dönemin ilk etkinliğiyle kulübümüzü tanıttığımız, yeni üyelerle tanıştığımız ve birlikte akran öğrenmesi yaptığımız tanışma oturumu.",
+    "en": "An introductory session where we introduced our club with the first event of the semester, met new members, and learned from each other."
+  },
+  "location": {
+    "tr": "Doğuş Üniversitesi, Z-25",
+    "en": "Doğuş University, Z-25"
+  },
+  "speakers": [],
+  "image": "/images/events/info-session-2025-fall.webp"
+}

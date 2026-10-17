@@ -1,0 +1,144 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "@fontsource-variable/google-sans-flex/rond.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * Tasarım değişkenleri (design tokens)
+ * ------------------------------------
+ * Renkleri SADECE buradan değiştirin. Bileşenlerde hex kod yazmayın;
+ * Tailwind sınıflarını kullanın: bg-background, text-muted-foreground,
+ * bg-g-blue, border-border vb.
+ */
+:root {
+  /* Google'ın dört rengi: logo ve etkinlik kategorileri bunları kullanır */
+  --g-blue: #4285f4;
+  --g-red: #ea4335;
+  --g-yellow: #fbbc04;
+  --g-green: #34a853;
+
+  --background: #f8f9fa;
+  --foreground: #202124;
+  --card: #ffffff;
+  --card-foreground: #202124;
+  --popover: #ffffff;
+  --popover-foreground: #202124;
+  --primary: #1a73e8;
+  --primary-foreground: #ffffff;
+  --secondary: #e8f0fe;
+  --secondary-foreground: #174ea6;
+  --muted: #f1f3f4;
+  --muted-foreground: #5f6368;
+  --accent: #e8f0fe;
+  --accent-foreground: #202124;
+  --destructive: #d93025;
+  --border: #dadce0;
+  --input: #dadce0;
+  --ring: #1a73e8;
+
+  --radius: 1.25rem;
+}
+
+.dark {
+  --background: #131314;
+  --foreground: #e8eaed;
+  --card: #1e1f20;
+  --card-foreground: #e8eaed;
+  --popover: #1e1f20;
+  --popover-foreground: #e8eaed;
+  --primary: #8ab4f8;
+  --primary-foreground: #131314;
+  --secondary: #263043;
+  --secondary-foreground: #d2e3fc;
+  --muted: #282a2c;
+  --muted-foreground: #9aa0a6;
+  --accent: #2b3340;
+  --accent-foreground: #e8eaed;
+  --destructive: #f28b82;
+  --border: #3c4043;
+  --input: #3c4043;
+  --ring: #8ab4f8;
+}
+
+@theme inline {
+  --font-sans: "Google Sans Flex Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --color-g-blue: var(--g-blue);
+  --color-g-red: var(--g-red);
+  --color-g-yellow: var(--g-yellow);
+  --color-g-green: var(--g-green);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) - 0.75rem);
+  --radius-md: calc(var(--radius) - 0.5rem);
+  --radius-lg: calc(var(--radius) - 0.25rem);
+  --radius-xl: var(--radius);
+
+  /* Tip ölçeği: 16px taban, ~1.25 oran */
+  --text-display: clamp(2.6rem, 1.4rem + 5.2vw, 5.75rem);
+  --text-display--line-height: 1.02;
+  --text-display--letter-spacing: -0.035em;
+  --text-headline: clamp(1.75rem, 1.3rem + 1.8vw, 2.5rem);
+  --text-headline--line-height: 1.12;
+  --text-headline--letter-spacing: -0.02em;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-variation-settings: "ROND" 0;
+  }
+  /* Başlıklar yuvarlatılmış harf uçlarıyla: logodaki noktaların yumuşaklığı */
+  h1,
+  h2,
+  h3 {
+    font-variation-settings: "ROND" 100;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 3px;
+  }
+}
+
+/* biome-ignore-start lint/complexity/noImportantStyles: hareket azaltma tercihi her şeyi ezmeli */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* biome-ignore-end lint/complexity/noImportantStyles: - */

@@ -1,0 +1,14 @@
+{
+  "name": "Yusuf Örnek",
+  "team": "web",
+  "role": {
+    "tr": "Web Geliştirme Ekibi",
+    "en": "Web Development Team"
+  },
+  "lead": false,
+  "order": 13,
+  "bio": {
+    "tr": "Kulübün web projelerinde geliştirici olarak görev alır.",
+    "en": "Serves as a developer in the club's web projects."
+  }
+}

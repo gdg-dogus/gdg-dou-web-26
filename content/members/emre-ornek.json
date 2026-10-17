@@ -1,0 +1,14 @@
+{
+  "name": "Emre Örnek",
+  "team": "social",
+  "role": {
+    "tr": "Sosyal Medya & Tasarım Ekibi",
+    "en": "Social Media & Design Team"
+  },
+  "lead": false,
+  "order": 4,
+  "bio": {
+    "tr": "Sosyal medya çalışmalarında içerik ve tasarım üretimine katkı sağlar.",
+    "en": "Contributes to content and design production in social media work."
+  }
+}

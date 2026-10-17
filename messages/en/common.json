@@ -1,0 +1,54 @@
+{
+  "site": {
+    "name": "GDG on Campus DOU",
+    "university": "Doğuş University",
+    "description": "The Google Developer Groups student community at Doğuş University. Workshops, tech talks, summits and company visits."
+  },
+  "nav": {
+    "home": "Home",
+    "events": "Events",
+    "team": "Team",
+    "projects": "Projects",
+    "blog": "Blog",
+    "offers": "Student offers",
+    "about": "About",
+    "menu": "Open menu",
+    "skip": "Skip to content",
+    "main": "Main menu"
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  },
+  "locale": {
+    "switch": "Türkçeye geç",
+    "short": "TR"
+  },
+  "footer": {
+    "pages": "Pages",
+    "community": "Community",
+    "joinWhatsapp": "Join the WhatsApp community",
+    "source": "This site is built in the open by the community's web team.",
+    "sourceLink": "Source code"
+  },
+  "categories": {
+    "summit": "Summit",
+    "workshop": "Workshop",
+    "tech_talk": "Tech talk",
+    "trip": "Company visit",
+    "info_session": "Info session",
+    "design": "Design"
+  },
+  "placeholder": {
+    "title": "This page is under construction",
+    "body": "The data is ready; the design and components come next. The list below is here to show the data loads correctly."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for may have moved or never existed.",
+    "home": "Back to home"
+  },
+  "zoom": {
+    "open": "{name}, enlarge",
+    "close": "Close"
+  }
+}

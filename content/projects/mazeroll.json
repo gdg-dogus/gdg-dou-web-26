@@ -1,0 +1,13 @@
+{
+  "slug": "mazeroll",
+  "title": "MazeRoll",
+  "team": "game",
+  "year": 2025,
+  "summary": {
+    "tr": "Mobil için tasarlanmış, sade ve dinlendirici bir 3D bulmaca oyunu. Amaç, topu sınırlı sayıda hamleyle labirentin başından sonuna ulaştırmak.",
+    "en": "A relaxing, minimalist 3D puzzle game designed for mobile. Guide the ball from start to finish within a strict move limit."
+  },
+  "cover": "/images/projects/mazeroll.webp",
+  "platforms": ["android"],
+  "credits": ["Ahmet Yunus Turna", "Ege Kılıç", "Gökmen Kaya", "Ömer Yarar"]
+}

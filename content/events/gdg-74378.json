@@ -1,0 +1,25 @@
+{
+  "slug": "gdg-74378",
+  "gdgId": "74378",
+  "category": "tech_talk",
+  "date": "2024-10-15",
+  "startTime": "10:00",
+  "endTime": "16:30",
+  "title": {
+    "tr": "Kulüp Tanıtım Günleri"
+  },
+  "summary": {
+    "tr": "Kulüp tanıtım günlerinde GDG On Campus Doğuş olarak biz de yer alacağız. Herkesi standımıza bekliyoruz! 🥳 ⚠ Uyarı: Çok renkli ve eğlenceli olacak!"
+  },
+  "description": {
+    "tr": "Kulüp tanıtım günlerinde GDG On Campus Doğuş olarak biz de yer alacağız. Herkesi standımıza bekliyoruz! 🥳 ⚠ Uyarı: Çok renkli ve eğlenceli olacak!"
+  },
+  "location": {
+    "tr": "Doğuş Üniversitesi, 265 Nato Yolu Caddesi, Ümraniye"
+  },
+  "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/Kul%C3%BCp%20Tan%C4%B1t%C4%B1m%20G%C3%BCnleri_joxTluL.jpg",
+  "registration": {
+    "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-dogus-university-istanbul-turkiye-presents-kulup-tanitim-gunleri/",
+    "open": true
+  }
+}

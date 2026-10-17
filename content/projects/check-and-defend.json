@@ -1,0 +1,13 @@
+{
+  "slug": "check-and-defend",
+  "title": "Check and Defend",
+  "team": "game",
+  "year": 2026,
+  "summary": {
+    "tr": "YILDIZ JAM 2026 için geliştirilmiş, satranç temalı bir kule savunma oyunu. Her dalgada taraf değişiyor: bir turda kendi şahını savunuyor, sonrakinde rakibin şahına saldırıyorsun. Amaç on dalga boyunca ayakta kalmak.",
+    "en": "A chess-themed tower defense game made for YILDIZ JAM 2026. Sides switch every wave: one round you defend your king, the next you attack the enemy's. The goal is to survive ten waves."
+  },
+  "cover": "/images/projects/check-and-defend.webp",
+  "platforms": ["windows", "macos", "linux"],
+  "credits": ["Ahmet Yunus Turna", "Emir Beşir", "Gökmen Kaya", "Ege Kılıç"]
+}

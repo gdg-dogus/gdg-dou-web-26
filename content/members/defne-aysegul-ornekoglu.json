@@ -1,0 +1,14 @@
+{
+  "name": "Defne Ayşegül Örnekoğlu",
+  "team": "org",
+  "role": {
+    "tr": "Organizasyon & Sponsorluk Takım Kaptanı",
+    "en": "Organization & Sponsorship Team Captain"
+  },
+  "lead": true,
+  "order": 5,
+  "bio": {
+    "tr": "Şirketlerle iletişim kurar, etkinliklerin sahada sorunsuz ilerlemesini sağlar.",
+    "en": "Communicates with companies and helps events run smoothly on site."
+  }
+}

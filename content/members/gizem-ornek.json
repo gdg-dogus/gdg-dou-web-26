@@ -1,0 +1,14 @@
+{
+  "name": "Gizem Örnek",
+  "team": "org",
+  "role": {
+    "tr": "Organizasyon & Sponsorluk Takım Kaptanı",
+    "en": "Organization & Sponsorship Team Captain"
+  },
+  "lead": true,
+  "order": 6,
+  "bio": {
+    "tr": "Organizasyon sürecinde ekip koordinasyonunu ve görev dağılımını destekler.",
+    "en": "Supports team coordination and task distribution during the organization process."
+  }
+}

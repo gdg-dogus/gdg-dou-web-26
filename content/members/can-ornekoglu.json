@@ -1,0 +1,14 @@
+{
+  "name": "Can Örnekoğlu",
+  "team": "web",
+  "role": {
+    "tr": "Web Geliştirme Takım Kaptan Yardımcısı",
+    "en": "Web Development Co-Team Captain"
+  },
+  "lead": true,
+  "order": 10,
+  "bio": {
+    "tr": "Kulübün web projelerinde geliştirici olarak görev alır.",
+    "en": "Serves as a developer in the club's web projects."
+  }
+}

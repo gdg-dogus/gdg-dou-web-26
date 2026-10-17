@@ -1,0 +1,26 @@
+{
+  "slug": "microsoft-teknik-gezi-2026",
+  "gdgId": "117328",
+  "category": "trip",
+  "date": "2026-03-04",
+  "startTime": "10:00",
+  "endTime": "12:00",
+  "title": {
+    "tr": "Microsoft Ofisi: Teknik Gezi",
+    "en": "Microsoft Office: Technical Trip"
+  },
+  "summary": {
+    "tr": "GDG on Campus DOU ekibiyle Microsoft Türkiye ofisine düzenlediğimiz teknik gezi.",
+    "en": "A technical trip to Microsoft Turkiye with the GDG on Campus DOU team."
+  },
+  "description": {
+    "tr": "Üniversite eğitimini, küresel teknoloji endüstrisinin gerçek dinamikleriyle harmanlıyoruz! GDG on Campus DOU ekibi olarak, yazılım ekosisteminin öncülerinden Microsoft'un Türkiye ofisine resmi bir teknik gezi düzenliyoruz.",
+    "en": "We are blending university education with the real dynamics of the global technology industry. As the GDG on Campus DOU team, we are organizing an official technical trip to Microsoft Turkiye, one of the pioneers of the software ecosystem."
+  },
+  "location": {
+    "tr": "Microsoft Türkiye Ofisi",
+    "en": "Microsoft Turkiye Office"
+  },
+  "speakers": [],
+  "image": "/images/events/microsoft-teknik-gezi-2026.webp"
+}

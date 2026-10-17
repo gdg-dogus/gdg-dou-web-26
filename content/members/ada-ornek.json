@@ -1,0 +1,14 @@
+{
+  "name": "Ada Örnek",
+  "team": "web",
+  "role": {
+    "tr": "Web Geliştirme Takım Kaptanı",
+    "en": "Web Development Team Captain"
+  },
+  "lead": true,
+  "order": 9,
+  "bio": {
+    "tr": "Kulübün web projelerini ve web sitesini geliştirmekten sorumludur.",
+    "en": "Responsible for developing the club's web projects and website."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "gdg-95536",
+  "gdgId": "95536",
+  "category": "tech_talk",
+  "date": "2025-05-15",
+  "startTime": "13:00",
+  "endTime": "16:00",
+  "title": {
+    "tr": "BitToByte - Web Geliştirme"
+  },
+  "summary": {
+    "tr": "Join us for an exciting hands-on workshop where you will learn to create your very own website using GitHub Pages! This ..."
+  },
+  "description": {
+    "tr": "Join us for an exciting hands-on workshop where you will learn to create your very own website using GitHub Pages! This event is perfect for beginners who want to start their journey into web development without any prior experience required. During the workshop, our team lead will guide you through the process of setting up a simple, yet effective personal website using GitHub Pages. You'll gain valuable insights into version control, web hosting, and customizing your site to fit your style. By the end of the session, you'll have a live website to share with the world. Don't miss this opportunity to enhance your skills and connect with fellow tech enthusiasts! Bring your laptop, and let's make something great together. Reserve your spot today!"
+  },
+  "location": {
+    "tr": "Doğuş Üniversitesi, 265 Nato Yolu Caddesi, Ümraniye"
+  },
+  "speakers": [],
+  "agenda": [],
+  "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultEventThumbnail_2_va1kAS9.png",
+  "gallery": [],
+  "registration": {
+    "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-dogus-university-istanbul-turkiye-presents-bittobyte-web-gelistirme/",
+    "open": true
+  }
+}

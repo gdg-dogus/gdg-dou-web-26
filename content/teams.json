@@ -1,0 +1,70 @@
+{
+  "teams": [
+    {
+      "key": "lead",
+      "name": {
+        "tr": "Organizatörler",
+        "en": "Organizers"
+      },
+      "description": {
+        "tr": "GDG on Campus DOU'nun genel organizasyonundan ve topluluk vizyonunun yürütülmesinden sorumludur.",
+        "en": "Responsible for the overall organization of GDG on Campus DOU and the execution of the community vision."
+      }
+    },
+    {
+      "key": "org",
+      "name": {
+        "tr": "Organizasyon & Sponsorluk Ekibi",
+        "en": "Organization & Sponsorship Team"
+      },
+      "description": {
+        "tr": "Bu takım, etkinliklerin organizasyonunu, sponsorluk görüşmelerini ve genel koordinasyonu yürütür. Şirketlerle iletişim kurar, etkinlik planlamasını destekler ve topluluk büyümesine katkı sağlar.",
+        "en": "This team handles event organization, sponsorship discussions, and general coordination. It communicates with companies, supports event planning, and contributes to community growth."
+      }
+    },
+    {
+      "key": "mobile",
+      "name": {
+        "tr": "Mobil Geliştirme Ekibi",
+        "en": "Mobile Development Team"
+      },
+      "description": {
+        "tr": "Topluluğun mobil projelerini geliştirir; Flutter / Android gibi teknolojilerle atölyeler ve projeler yürütür.",
+        "en": "Develops the community's mobile projects and runs workshops and projects with technologies such as Flutter and Android."
+      }
+    },
+    {
+      "key": "web",
+      "name": {
+        "tr": "Web Geliştirme Ekibi",
+        "en": "Web Development Team"
+      },
+      "description": {
+        "tr": "Kulübün web projelerini ve web sitesini geliştirir, frontend/backend teknolojileri üzerine çalışır.",
+        "en": "Develops the club's web projects and website, and works on frontend/backend technologies."
+      }
+    },
+    {
+      "key": "game",
+      "name": {
+        "tr": "Oyun Geliştirme Ekibi",
+        "en": "Game Development Team"
+      },
+      "description": {
+        "tr": "Oyun geliştirme projeleri ve atölyeleri düzenler, Unity ve Unreal Engine gibi platformlarda çalışmalar yapar.",
+        "en": "Organizes game development projects and workshops, and works on platforms such as Unity and Unreal Engine."
+      }
+    },
+    {
+      "key": "social",
+      "name": {
+        "tr": "Sosyal Medya & Tasarım Ekibi",
+        "en": "Social Media & Design Team"
+      },
+      "description": {
+        "tr": "Sosyal medya içeriklerini, görsel tasarımları ve marka iletişimini yönetir. Etkinlik afişleri, postlar ve video içeriklerinden sorumludur.",
+        "en": "Manages social media content, visual designs, and brand communication. Responsible for event posters, posts, and video content."
+      }
+    }
+  ]
+}

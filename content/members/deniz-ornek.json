@@ -1,0 +1,14 @@
+{
+  "name": "Deniz Örnek",
+  "team": "lead",
+  "role": {
+    "tr": "Organizatör",
+    "en": "Organizer"
+  },
+  "lead": true,
+  "order": 0,
+  "bio": {
+    "tr": "GDG on Campus DOU'nun genel organizasyonundan ve topluluk vizyonunun yürütülmesinden sorumludur.",
+    "en": "Responsible for the overall organization of GDG on Campus DOU and the execution of the community vision."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "women-coding-the-future-2026",
+  "gdgId": "117914",
+  "category": "tech_talk",
+  "date": "2026-03-10",
+  "startTime": "13:00",
+  "endTime": "15:00",
+  "title": {
+    "tr": "Women Coding The Future"
+  },
+  "summary": {
+    "tr": "Women Coding the Future etkinliğinde sektörün tecrübeli isimlerinden Ayşenur Eroğlu'nu ağırlıyoruz.",
+    "en": "At Women Coding the Future, we are hosting Aysenur Eroglu, one of the experienced names in the industry."
+  },
+  "description": {
+    "tr": "8 Mart Dünya Kadınlar Günü'nün anlamını teknoloji dünyasıyla buluşturduğumuz 'Women Coding the Future' etkinliğimizde, sektörün tecrübeli isimlerinden Ayşenur Eroğlu'nu ağırlıyoruz.",
+    "en": "At our 'Women Coding the Future' event, where we brought the meaning of International Women's Day on March 8 together with the technology world, we are hosting Aysenur Eroglu, one of the experienced names in the industry."
+  },
+  "location": {
+    "tr": "Doğuş Üniversitesi Dudullu Kampüsü, B2-03",
+    "en": "Doğuş University Dudullu Campus, B2-03"
+  },
+  "speakers": [
+    {
+      "name": "Ayşenur Eroğlu",
+      "role": {
+        "tr": "Mühendislik Yöneticisi Bölüm Başkanı",
+        "en": "Engineering Manager Chapter Lead"
+      }
+    }
+  ],
+  "image": "/images/events/women-coding-the-future-2026.webp"
+}

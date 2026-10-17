@@ -1,0 +1,13 @@
+{
+  "slug": "merge-square",
+  "title": "Merge Square",
+  "team": "game",
+  "year": 2026,
+  "summary": {
+    "tr": "Mobil için tasarlanmış, renkli bir 2D bulmaca oyunu. Amaç, karışık parçalara bölünmüş görselleri sınırlı sayıda hamleyle yeniden birleştirmek. Bölümler ilerledikçe zorlaşıyor.",
+    "en": "A colorful 2D puzzle game designed for mobile. Rebuild scrambled images within a move limit, with puzzles that get harder as you progress."
+  },
+  "cover": "/images/projects/merge-square.webp",
+  "platforms": ["android", "windows"],
+  "credits": ["Ahmet Yunus Turna", "Ege Kılıç", "Gökmen Kaya", "Ömer Yarar"]
+}

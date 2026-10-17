@@ -1,0 +1,28 @@
+{
+  "slug": "gdg-79657",
+  "gdgId": "79657",
+  "category": "tech_talk",
+  "date": "2024-12-01",
+  "startTime": "15:00",
+  "endTime": "16:00",
+  "title": {
+    "tr": "Podcast Of My Code - Can Kurtan -  Yurt Dışında Yazılımcı Olmak ve Algoritma Mühendisliği"
+  },
+  "summary": {
+    "tr": "🎙️ Herkese Merhaba! Yeni podcast serimize hoş geldiniz! Bu bölümde, özel konuğumuz Can Kurtan ile keyifli bir sohbet gerçekleştiriyoruz."
+  },
+  "description": {
+    "tr": "🎙️ Herkese Merhaba! Yeni podcast serimize hoş geldiniz! Bu bölümde, özel konuğumuz Can Kurtan ile keyifli bir sohbet gerçekleştiriyoruz. 🔔 Yeni bölümlerimizi kaçırmamak için kanala abone olmayı, videoyu beğenmeyi ve yorum yaparak görüşlerinizi bizimle paylaşmayı unutmayın! ✨ İyi seyirler!"
+  },
+  "location": {
+    "tr": "GDG Community"
+  },
+  "speakers": [],
+  "agenda": [],
+  "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultEventThumbnail_2_va1kAS9.png",
+  "gallery": [],
+  "registration": {
+    "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-dogus-university-istanbul-turkiye-presents-podcast-of-my-code-can-kurtan-yurt-disinda-yazilimci-olmak-ve-algoritma-muhendisligi/",
+    "open": true
+  }
+}

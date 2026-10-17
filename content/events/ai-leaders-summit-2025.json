@@ -1,0 +1,35 @@
+{
+  "slug": "ai-leaders-summit-2025",
+  "gdgId": "96190",
+  "category": "summit",
+  "date": "2025-05-28",
+  "startTime": "13:00",
+  "endTime": "16:00",
+  "title": {
+    "tr": "AI Leaders Summit"
+  },
+  "summary": {
+    "tr": "Yapay zekayı yalnızca bir araç değil, bir dönüşüm gücü olarak gören liderlerin buluştuğu zirve.",
+    "en": "A summit where leaders who see artificial intelligence as a force of transformation come together."
+  },
+  "description": {
+    "tr": "Yapay zekayı yalnızca bir araç değil, bir dönüşüm gücü olarak gören liderlerin buluştuğu zirve. Yapay zekanın geleceğini yazan liderlerle aynı sahnede buluşma fırsatı.",
+    "en": "A summit where leaders who see artificial intelligence not only as a tool, but as a force of transformation, come together. An opportunity to share the same stage with leaders shaping the future of AI."
+  },
+  "location": {
+    "tr": "Doğuş Üniversitesi, B2-02",
+    "en": "Doğuş University, B2-02"
+  },
+  "speakers": [
+    {
+      "name": "Deger Ayata, PhD"
+    },
+    {
+      "name": "Rojdan Ozan Kozan"
+    },
+    {
+      "name": "Melik Vatan"
+    }
+  ],
+  "image": "/images/events/ai-leaders-summit-2025.webp"
+}

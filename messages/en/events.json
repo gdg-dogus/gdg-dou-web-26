@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Events",
+    "description": "Upcoming and past events of GDG on Campus DOU."
+  },
+  "title": "Events",
+  "intro": "From workshops to summits, everything we do on and off campus. Registration opens on each event's page.",
+  "tabs": {
+    "upcoming": "Upcoming",
+    "past": "Past"
+  },
+  "filter": {
+    "label": "Filter by category",
+    "all": "All"
+  },
+  "term": {
+    "fall": "Fall {year}",
+    "spring": "Spring {year}",
+    "summer": "Summer {year}"
+  },
+  "empty": {
+    "upcoming": "No upcoming events announced yet. Announcements go out first on Instagram and in the WhatsApp community.",
+    "past": "No past events yet.",
+    "filtered": "No events in this category.",
+    "clear": "Clear filter"
+  },
+  "cta": {
+    "title": "Stay in the loop",
+    "body": "New events are announced first in our WhatsApp community and on Instagram.",
+    "whatsapp": "Join the WhatsApp community",
+    "instagram": "Follow on Instagram"
+  },
+  "detail": {
+    "back": "All events",
+    "date": "Date",
+    "time": "Time",
+    "location": "Location",
+    "speakers": "Speakers",
+    "register": "Register",
+    "registrationClosed": "Registration closed",
+    "communityPage": "GDG Community page",
+    "calendar": {
+      "label": "Add to calendar",
+      "google": "Google Calendar",
+      "ics": "Apple / Outlook"
+    },
+    "share": {
+      "label": "Share",
+      "copied": "Link copied"
+    },
+    "map": {
+      "title": "Map of {location}",
+      "open": "Open in Google Maps"
+    },
+    "related": "More events",
+    "about": "About this event",
+    "info": "Event details",
+    "category": "Category",
+    "status": {
+      "upcoming": "Upcoming",
+      "past": "Took place"
+    },
+    "agenda": "Agenda",
+    "gallery": "Photos",
+    "posterAlt": "Poster for {title}",
+    "photoAlt": "Photo {n} from {title}"
+  },
+  "stats": {
+    "since": "{count} events since {year}"
+  },
+  "spotlight": {
+    "upcoming": "Next event",
+    "latest": "Latest event",
+    "startsIn": "Starts in",
+    "details": "Event details"
+  },
+  "units": {
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds"
+  }
+}

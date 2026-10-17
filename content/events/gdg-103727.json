@@ -1,0 +1,28 @@
+{
+  "slug": "gdg-103727",
+  "gdgId": "103727",
+  "category": "tech_talk",
+  "date": "2025-10-07",
+  "startTime": "10:00",
+  "endTime": "16:00",
+  "title": {
+    "tr": "Kulüp Tanıtım Günleri"
+  },
+  "summary": {
+    "tr": "🎉 Katılımın ve etkileşimin doruk noktasına ulaşacağı \"GDG on Campus Doğuş: Kulüp Tanıtım Standı\" etkinliğimize davetlisi..."
+  },
+  "description": {
+    "tr": "🎉 Katılımın ve etkileşimin doruk noktasına ulaşacağı \"GDG on Campus Doğuş: Kulüp Tanıtım Standı\" etkinliğimize davetlisiniz! 🌟 Doğuş Üniversitesi'nin en heyecan verici etkinliği olan kulüp tanıtım günlerinde yer alacak olan standımızda, teknoloji tutkunlarıyla tanışma ve GDG on Campus 'ün sunduğu olanaklar hakkında bilgi edinme fırsatını kaçırmayın. İnovasyon ve yaratıcılık dolu bir dünya sizi bekliyor. Gelin, birlikte büyüyelim ve teknoloji dünyasında yeni ufuklara yelken açalım! 🚀 📍 Mekan: Doğuş Üniversitesi Kampüsü 📅 Tarih: 7.10.2025 ⏰ Saat: 10:00 Unutmayın, teknolojiye dair sorularınızı ve projelerinizi bizimle paylaşabileceğiniz bu etkinlikte, takımımızla tanışma fırsatını kaçırmayın. Bize katılın, geleceği birlikte şekillendirelim! 💡✨ Sizi standımızda görmek için sabırsızlanıyoruz!"
+  },
+  "location": {
+    "tr": "Doğuş Üniversitesi, 265 Nato Yolu Caddesi, Ümraniye"
+  },
+  "speakers": [],
+  "agenda": [],
+  "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultEventThumbnail_2_va1kAS9.png",
+  "gallery": [],
+  "registration": {
+    "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-dogus-university-istanbul-turkiye-presents-kulup-tanitim-gunleri-1/",
+    "open": true
+  }
+}

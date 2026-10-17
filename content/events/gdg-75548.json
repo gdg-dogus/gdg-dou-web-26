@@ -1,0 +1,28 @@
+{
+  "slug": "gdg-75548",
+  "gdgId": "75548",
+  "category": "tech_talk",
+  "date": "2024-10-23",
+  "startTime": "15:00",
+  "endTime": "17:00",
+  "title": {
+    "tr": "Info Session Doğuş Üniveristesi"
+  },
+  "summary": {
+    "tr": "Info Session kulübümüzü tanıttığımız, birbirimizi tanıdığımız bir etkinlik olacak."
+  },
+  "description": {
+    "tr": "Merhaba herkese, Kulübümüzün ilk etkinliği \"Info Session\", 23 Ekim Çarşamba günü gerçekleşecek. Etkinlik saat 15.00'te başlayacak ve zemin kattaki Z-25 Hayat Boyu Öğrenme Odası'nda gerçekleşecek. 📢 Kulübümüzü tanıttığımız, birbirimizi tanıyacağımız, oyunlar oynayacağımız ve sürpriz hediyeler vereceğimiz bir etkinlik olacak! 🎁 Hepinizi bekliyoruz! 🥳"
+  },
+  "location": {
+    "tr": "Doğuş Üniversitesi, 265 Nato Yolu Caddesi, Ümraniye"
+  },
+  "speakers": [],
+  "agenda": [],
+  "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/InfoSessionTN_aUxHNSt.jpg",
+  "gallery": [],
+  "registration": {
+    "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-dogus-university-istanbul-turkiye-presents-info-session-dogus-univeristesi/",
+    "open": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Tolga Örnek",
+  "team": "game",
+  "role": {
+    "tr": "Ekip üyesi",
+    "en": "Team member"
+  },
+  "lead": false,
+  "order": 22
+}

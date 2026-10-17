@@ -1,0 +1,26 @@
+{
+  "slug": "bit-to-byte-2025",
+  "gdgId": "110502",
+  "category": "workshop",
+  "date": "2025-12-16",
+  "startTime": "13:00",
+  "endTime": "15:00",
+  "title": {
+    "tr": "Bit To Byte: Oyun Geliştirme",
+    "en": "Bit To Byte: Game Development"
+  },
+  "summary": {
+    "tr": "Unity 6 ile Flappy Bird mekaniklerini sıfırdan kodladığımız uygulamalı oyun geliştirme etkinliği.",
+    "en": "A hands-on game development event where we code Flappy Bird mechanics from scratch with Unity 6."
+  },
+  "description": {
+    "tr": "Bit To Byte ile kendi oyununu tasarla! GDG on Campus DOU olarak, Unity 6 ile efsanevi Flappy Bird mekaniklerini sıfırdan kodluyoruz. Teoriyi bırakıp pratiğe geçme zamanı!",
+    "en": "Design your own game with Bit To Byte! As GDG on Campus DOU, we are coding the legendary Flappy Bird mechanics from scratch with Unity 6. It is time to move from theory to practice!"
+  },
+  "location": {
+    "tr": "Doğuş Üniversitesi, Z-25",
+    "en": "Doğuş University, Z-25"
+  },
+  "speakers": [],
+  "image": "/images/events/bit-to-byte-2025.webp"
+}

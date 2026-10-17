@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "GDG on Campus DOU"
+  },
+  "hero": {
+    "title": "Doğuş Üniversitesi'nde birlikte öğreniyor, üretiyor, paylaşıyor ve tanışıyoruz.",
+    "kicker": "Doğuş Üniversitesi'nde",
+    "lead": "birlikte",
+    "words": ["öğreniyoruz.", "üretiyoruz.", "paylaşıyoruz.", "tanışıyoruz."],
+    "primary": "Etkinlikleri gör",
+    "secondary": "WhatsApp topluluğuna katıl",
+    "scroll": "Aşağı kaydır"
+  },
+  "posters": {
+    "title": "Bugüne kadar yaptıklarımız",
+    "body": "{count} etkinlik. Afişler sırayla öne çıkar, alttan tümüne göz at.",
+    "open": "{title} etkinliğine git",
+    "details": "Etkinlik detayı",
+    "prev": "Önceki etkinlik",
+    "next": "Sonraki etkinlik"
+  },
+  "what": {
+    "title": "Neler yapıyoruz",
+    "body": "Dönem boyunca dört tür etkinlik düzenliyoruz. Hepsine tüm bölümlerden öğrenciler katılabilir.",
+    "count": "{count} etkinlik",
+    "items": {
+      "workshop": "Bilgisayarını getirip bir şeyi baştan sona birlikte yaptığımız uygulamalı oturumlar.",
+      "tech_talk": "Sektörden konuşmacıların deneyimlerini ve projelerini anlattığı sunumlar.",
+      "summit": "Birçok konuşmacı ve oturumun bir araya geldiği büyük buluşmalar.",
+      "trip": "Teknoloji şirketlerinin ofislerine gidip ekipleri yerinde tanıdığımız geziler."
+    }
+  },
+  "teams": {
+    "title": "{teams} ekip, {members} kişi",
+    "body": "Her ekip dönem boyunca kendi projeleri ve atölyeleri üzerinde çalışır. Her nokta bir kişi.",
+    "members": "{count} kişi",
+    "all": "Ekibi tanı"
+  },
+  "posts": {
+    "title": "Son yazılar",
+    "body": "Topluluktan Google teknolojileri üzerine yazılar.",
+    "all": "Tüm yazılar",
+    "reading": "{minutes} dk okuma"
+  },
+  "join": {
+    "title": "Bir sonraki etkinlikte görüşelim",
+    "body": "Yeni etkinlikler önce WhatsApp topluluğunda ve Instagram hesabımızda duyuruluyor.",
+    "whatsapp": "WhatsApp topluluğuna katıl",
+    "instagram": "Instagram'da takip et"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "gdg-131645",
+  "gdgId": "131645",
+  "category": "tech_talk",
+  "date": "2026-09-22",
+  "startTime": "09:00",
+  "endTime": "16:00",
+  "title": {
+    "tr": "GDG On Campus Doğuş Kulüp Tanıtım Günleri | Google Developer Groups"
+  },
+  "summary": {
+    "tr": "Join the Google Developer Groups event to learn about our club's activities, teams, and upcoming events. Ideal for students eager to advance in technology and collaborate. Meet like-minded peers at Doğuş University Dudullu Campus on September 22, 2026, starting at 9:00 AM."
+  },
+  "description": {
+    "tr": "Google Developer Groups (GDG) kulübümüzü yakından tanımak ve topluluğumuza katılmak isteyen tüm öğrencileri Kulüp Tanıtım Günleri’ne bekliyoruz! Etkinlik boyunca kulübümüzün çalışma alanları, ekiplerimiz ve yıl boyunca gerçekleştireceğimiz etkinlikler hakkında bilgi edinebilir; teknoloji alanında kendini geliştirmek ve birlikte üretmek isteyen öğrencilerle tanışabilirsiniz. 📍 Yer: Doğuş Üniversitesi Dudullu Kampusu 📅 Tarih: 22/09/2026 ⏰ Saat: 09:00"
+  },
+  "location": {
+    "tr": "Doğuş Üniversitesi, 265 Nato Yolu Caddesi, Ümraniye"
+  },
+  "image": "/images/events/tanitim_gunu.webp",
+  "registration": {
+    "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-dogus-university-istanbul-turkiye-presents-gdg-on-campus-dogus-kulup-tanitim-gunleri-google-developer-groups/",
+    "open": true
+  }
+}

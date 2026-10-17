@@ -1,0 +1,14 @@
+{
+  "name": "Ali Rıza Örnek",
+  "team": "social",
+  "role": {
+    "tr": "Sosyal Medya & Tasarım Ekibi",
+    "en": "Social Media & Design Team"
+  },
+  "lead": false,
+  "order": 3,
+  "bio": {
+    "tr": "Topluluğun sosyal medya içeriklerine ve görsel iletişimine destek olur.",
+    "en": "Supports the community's social media content and visual communication."
+  }
+}

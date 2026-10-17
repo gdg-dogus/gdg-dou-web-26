@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Projects",
+    "description": "Games and apps built by the GDG on Campus DOU teams."
+  },
+  "title": "Projects",
+  "intro": "Games and apps our teams have built and released.",
+  "empty": "No projects have been added yet.",
+  "details": {
+    "platforms": "Platform",
+    "tools": "Tools",
+    "credits": "Made by"
+  },
+  "links": {
+    "page": "Open project",
+    "source": "Source code",
+    "video": "Trailer"
+  },
+  "platforms": {
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "windows": "Windows",
+    "macos": "macOS",
+    "linux": "Linux"
+  }
+}

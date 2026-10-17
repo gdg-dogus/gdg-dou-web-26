@@ -1,0 +1,32 @@
+{
+  "id": "azure",
+  "name": "Azure for Students",
+  "category": "cloud",
+  "url": "https://azure.microsoft.com/en-us/free/students/",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg",
+  "order": 4,
+  "summary": {
+    "tr": "Öğrenciler için ücretsiz Azure kredileri ve geliştirici araçlarıyla projelerinizi bulutta geliştirin.",
+    "en": "Build your projects in the cloud with free Azure credits and developer tools for students."
+  },
+  "description": {
+    "tr": "Azure hizmetlerinde kullanmak üzere 100 $ kredi kazanın, ayrıca VS Code, SQL Server ve daha fazlası gibi popüler geliştirici araçlarına ücretsiz erişim sağlayın. Kredi kartı gerekmez.",
+    "en": "Get $100 in credit to use on Azure services, plus free access to popular developer tools such as VS Code, SQL Server, and more. No credit card required."
+  },
+  "steps": {
+    "tr": [
+      "azure.microsoft.com/students adresine gidin.",
+      "\"Start Free\" seçeneğine tıklayın.",
+      "Okul e-postanızla giriş yapın."
+    ],
+    "en": [
+      "Go to azure.microsoft.com/students.",
+      "Click \"Start Free\".",
+      "Sign in with your school email."
+    ]
+  },
+  "tags": {
+    "tr": ["Bulut", "Yapay Zeka"],
+    "en": ["Cloud", "Artificial Intelligence"]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "jetbrains",
+  "name": "JetBrains Educational Pack",
+  "category": "developer_tools",
+  "url": "https://www.jetbrains.com/community/education/#students",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/JetBrains_logo.jpg",
+  "order": 1,
+  "summary": {
+    "tr": "JetBrains profesyonel masaüstü IDE'leri öğrencilere ve akademisyenlere bedava.",
+    "en": "JetBrains professional desktop IDEs are free for students and academics."
+  },
+  "description": {
+    "tr": "Tüm JetBrains IDE'lerine IntelliJ IDEA Ultimate, PyCharm Professional, WebStorm ve daha fazlası da dahil ücretsiz erişim sağlayın. Java, Python, JavaScript ve diğer dillerde kodlama için birebir.",
+    "en": "Get free access to all JetBrains IDEs, including IntelliJ IDEA Ultimate, PyCharm Professional, WebStorm, and more. A perfect fit for coding in Java, Python, JavaScript, and other languages."
+  },
+  "steps": {
+    "tr": [
+      "jetbrains.com/student adresine gidin.",
+      "\"Request Now\" seçeneğine tıklayın.",
+      ".edu e-posta adresinizle formu doldurun."
+    ],
+    "en": [
+      "Go to jetbrains.com/student.",
+      "Click \"Request Now\".",
+      "Fill out the form with your .edu email address."
+    ]
+  },
+  "tags": {
+    "tr": ["IDE", "Verimlilik"],
+    "en": ["IDE", "Productivity"]
+  }
+}

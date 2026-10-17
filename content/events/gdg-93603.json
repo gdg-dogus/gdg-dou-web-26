@@ -1,0 +1,28 @@
+{
+  "slug": "gdg-93603",
+  "gdgId": "93603",
+  "category": "trip",
+  "date": "2025-04-09",
+  "startTime": "12:00",
+  "endTime": "14:00",
+  "title": {
+    "tr": "Girişimcilik Vakfı Teknik Gezi"
+  },
+  "summary": {
+    "tr": "Girişimcilik Vakfı Teknik Gezi"
+  },
+  "description": {
+    "tr": "Girişimcilik Vakfı Teknik Gezi"
+  },
+  "location": {
+    "tr": "Türkiye Girişimcilik Vakfı, Türkiye Girişimcilik Vakfı, Esentepe, Şişli/İstanbul, Türkiye, Şişli"
+  },
+  "speakers": [],
+  "agenda": [],
+  "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultEventThumbnail_2_va1kAS9.png",
+  "gallery": [],
+  "registration": {
+    "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-dogus-university-istanbul-turkiye-presents-girisimcilik-vakfi-teknik-gezi/",
+    "open": true
+  }
+}

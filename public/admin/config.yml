@@ -1,0 +1,382 @@
+# Sveltia CMS ayarları — site adresinin sonuna /admin/ ekleyerek açılır.
+# Değişiklikler doğrudan GitHub'a commit olarak gider; build sonrası sitede görünür.
+#
+# Giriş seçenekleri:
+#   1. "Sign in with Token": GitHub'da fine-grained personal access token oluşturup girin
+#      (bu repoya Contents: Read and write izni yeterli). Kurulum gerektirmez.
+#   2. "Work with Local Repository" (Chrome/Edge): Yerelde `pnpm dev` açıkken
+#      http://localhost:3000/admin/ adresinde repo klasörünü seçin. Hiçbir şey GitHub'a gitmez.
+#   3. "Sign in with GitHub": Bunun için bir OAuth aracısı gerekir (README'de anlatılıyor).
+#      Kurulunca aşağıdaki base_url satırını açın.
+
+backend:
+  name: github
+  repo: gdg-dogus/gdg-dou-web-26
+  branch: main
+  # base_url: https://sveltia-cms-auth.<hesap>.workers.dev
+  commit_messages:
+    create: "içerik: {{collection}} / {{slug}} eklendi"
+    update: "içerik: {{collection}} / {{slug}} güncellendi"
+    delete: "içerik: {{collection}} / {{slug}} silindi"
+    uploadMedia: "içerik: {{path}} yüklendi"
+    deleteMedia: "içerik: {{path}} silindi"
+
+media_folder: public/images
+public_folder: /images
+
+# Boş bırakılan isteğe bağlı alanları dosyaya hiç yazma. Yazılırsa ("links": null gibi)
+# .strict() Zod şemaları build'i durdurur.
+output:
+  omit_empty_optional_fields: true
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+i18n:
+  locales: [tr, en]
+  default_locale: tr
+
+collections:
+  # ---------------------------------------------------------------- Etkinlikler
+  - name: events
+    label: Etkinlikler
+    label_singular: Etkinlik
+    folder: content/events
+    format: json
+    extension: json
+    create: true
+    identifier_field: slug
+    slug: "{{fields.slug}}"
+    summary: "{{date}} — {{title.tr}}"
+    sortable_fields: [date, title.tr]
+    media_folder: /public/images/events
+    public_folder: /images/events
+    fields:
+      - name: slug
+        label: Kısa ad (URL)
+        hint: "Küçük harf, rakam ve tire. Ör: gdg-techverse-2026"
+        widget: string
+        pattern: ["^[a-z0-9]+(-[a-z0-9]+)*$", "Sadece küçük harf, rakam ve tire"]
+      - name: gdgId
+        label: GDG Community etkinlik numarası
+        hint: "gdg.community.dev adresindeki sayı. Varsa kayıt linki oradan alınır."
+        widget: string
+        required: false
+        pattern: ["^\\d+$", "Sadece rakam"]
+      - name: category
+        label: Kategori
+        widget: select
+        options:
+          - { label: Zirve, value: summit }
+          - { label: Atölye, value: workshop }
+          - { label: Teknik konuşma, value: tech_talk }
+          - { label: Teknik gezi, value: trip }
+          - { label: Tanışma oturumu, value: info_session }
+          - { label: Tasarım, value: design }
+      - { name: date, label: Tarih, widget: datetime, type: date, format: "YYYY-MM-DD" }
+      - { name: startTime, label: Başlangıç saati, widget: datetime, type: time, format: "HH:mm" }
+      - { name: endTime, label: Bitiş saati, widget: datetime, type: time, format: "HH:mm", required: false }
+      - name: title
+        label: Başlık
+        widget: object
+        fields:
+          - { name: tr, label: Türkçe, widget: string }
+          - { name: en, label: İngilizce, widget: string, required: false }
+      - name: summary
+        label: Kısa açıklama (listede görünür)
+        widget: object
+        fields:
+          - { name: tr, label: Türkçe, widget: text }
+          - { name: en, label: İngilizce, widget: text, required: false }
+      - name: description
+        label: Açıklama (detay sayfası)
+        widget: object
+        fields:
+          - { name: tr, label: Türkçe, widget: text }
+          - { name: en, label: İngilizce, widget: text, required: false }
+      - name: location
+        label: Konum
+        widget: object
+        fields:
+          - { name: tr, label: Türkçe, widget: string }
+          - { name: en, label: İngilizce, widget: string, required: false }
+      - name: speakers
+        label: Konuşmacılar
+        widget: list
+        required: false
+        summary: "{{name}}"
+        fields:
+          - { name: name, label: Ad soyad, widget: string }
+          - name: role
+            label: Ünvan
+            widget: object
+            required: false
+            fields:
+              - { name: tr, label: Türkçe, widget: string }
+              - { name: en, label: İngilizce, widget: string, required: false }
+          - { name: photo, label: Fotoğraf, widget: image, required: false, hint: "Kare, en az 300×300" }
+          - { name: link, label: LinkedIn ya da web sitesi, widget: string, required: false }
+      - name: agenda
+        label: Program
+        hint: "Saat saat akış. Zirve ve uzun atölyelerde doldurun."
+        widget: list
+        required: false
+        summary: "{{time}} — {{title.tr}}"
+        fields:
+          - { name: time, label: Saat, widget: datetime, type: time, format: "HH:mm" }
+          - name: title
+            label: Oturum
+            widget: object
+            fields:
+              - { name: tr, label: Türkçe, widget: string }
+              - { name: en, label: İngilizce, widget: string, required: false }
+          - { name: speaker, label: Konuşmacı, widget: string, required: false }
+      - name: image
+        label: Afiş
+        hint: "4:5 oranında (ör. 1080×1350) WebP veya JPG"
+        widget: image
+        required: false
+      - name: gallery
+        label: Fotoğraflar
+        hint: "Etkinlik bittikten sonra eklenir. WebP, her biri en fazla ~300 KB."
+        widget: list
+        required: false
+        field: { name: photo, label: Fotoğraf, widget: image }
+      - name: registration
+        label: Kayıt
+        widget: object
+        required: false
+        fields:
+          - { name: url, label: Kayıt linki, widget: string }
+          - { name: open, label: Kayıtlar açık, widget: boolean, default: true }
+          - name: label
+            label: Buton yazısı (boş bırakılırsa "Kayıt ol")
+            widget: object
+            required: false
+            fields:
+              - { name: tr, label: Türkçe, widget: string }
+              - { name: en, label: İngilizce, widget: string, required: false }
+
+  # ---------------------------------------------------------------- Ekip
+  - name: members
+    label: Ekip üyeleri
+    label_singular: Üye
+    folder: content/members
+    format: json
+    extension: json
+    create: true
+    identifier_field: name
+    slug: "{{slug}}"
+    summary: "{{name}} ({{team}})"
+    media_folder: /public/images/team
+    public_folder: /images/team
+    fields:
+      - { name: name, label: Ad soyad, widget: string }
+      - name: team
+        label: Ekip
+        widget: relation
+        collection: settings
+        file: teams
+        value_field: "teams.*.key"
+        display_fields: ["teams.*.name.tr"]
+        search_fields: ["teams.*.name.tr"]
+      - name: role
+        label: Rol
+        widget: object
+        fields:
+          - { name: tr, label: Türkçe, widget: string }
+          - { name: en, label: İngilizce, widget: string, required: false }
+      - { name: lead, label: Kaptan / organizatör, widget: boolean, default: false }
+      - { name: order, label: Sıra (küçük önce), widget: number, value_type: int, default: 100 }
+      - { name: photo, label: Fotoğraf, widget: image, required: false, hint: "Kare, en az 400×400" }
+      - name: bio
+        label: Kısa tanıtım
+        widget: object
+        required: false
+        fields:
+          - { name: tr, label: Türkçe, widget: text }
+          - { name: en, label: İngilizce, widget: text, required: false }
+      - name: links
+        label: Bağlantılar
+        widget: object
+        required: false
+        fields:
+          - { name: linkedin, label: LinkedIn, widget: string, required: false }
+          - { name: github, label: GitHub, widget: string, required: false }
+          - { name: instagram, label: Instagram, widget: string, required: false }
+          - { name: website, label: Web sitesi, widget: string, required: false }
+
+  # ---------------------------------------------------------------- Teklifler
+  - name: offers
+    label: Öğrenci teklifleri
+    label_singular: Teklif
+    folder: content/offers
+    format: json
+    extension: json
+    create: true
+    identifier_field: id
+    slug: "{{fields.id}}"
+    summary: "{{name}}"
+    fields:
+      - { name: id, label: Kısa ad, widget: string, pattern: ["^[a-z0-9-]+$", "Küçük harf, rakam ve tire"] }
+      - { name: name, label: Ad, widget: string }
+      - name: category
+        label: Kategori
+        widget: select
+        options:
+          - { label: Geliştirici araçları, value: developer_tools }
+          - { label: Verimlilik, value: productivity }
+          - { label: Tasarım, value: design }
+          - { label: Bulut, value: cloud }
+          - { label: Yaşam, value: lifestyle }
+      - { name: url, label: Teklif linki, widget: string }
+      - { name: logo, label: Logo (URL ya da yükleme), widget: image }
+      - { name: logoDark, label: Koyu tema logosu, widget: image, required: false }
+      - { name: order, label: Sıra, widget: number, value_type: int, default: 100 }
+      - name: summary
+        label: Kısa açıklama
+        widget: object
+        fields:
+          - { name: tr, label: Türkçe, widget: text }
+          - { name: en, label: İngilizce, widget: text, required: false }
+      - name: description
+        label: Açıklama
+        widget: object
+        fields:
+          - { name: tr, label: Türkçe, widget: text }
+          - { name: en, label: İngilizce, widget: text, required: false }
+      - name: steps
+        label: Nasıl alınır (adımlar)
+        widget: object
+        fields:
+          - { name: tr, label: Türkçe, widget: list, field: { name: step, label: Adım, widget: string } }
+          - { name: en, label: İngilizce, widget: list, required: false, field: { name: step, label: Step, widget: string } }
+      - name: tags
+        label: Etiketler
+        widget: object
+        required: false
+        fields:
+          - { name: tr, label: Türkçe, widget: list }
+          - { name: en, label: İngilizce, widget: list, required: false }
+
+  # ---------------------------------------------------------------- Projeler
+  - name: projects
+    label: Projeler
+    label_singular: Proje
+    folder: content/projects
+    format: json
+    extension: json
+    create: true
+    identifier_field: slug
+    slug: "{{fields.slug}}"
+    summary: "{{year}} — {{title}}"
+    sortable_fields: [year, title]
+    media_folder: /public/images/projects
+    public_folder: /images/projects
+    fields:
+      - name: slug
+        label: Kısa ad (URL)
+        hint: "Küçük harf, rakam ve tire. Ör: mazeroll"
+        widget: string
+        pattern: ["^[a-z0-9]+(-[a-z0-9]+)*$", "Sadece küçük harf, rakam ve tire"]
+      - { name: title, label: Ad, widget: string }
+      - name: team
+        label: Ekip
+        widget: relation
+        collection: settings
+        file: teams
+        value_field: "teams.*.key"
+        display_fields: ["teams.*.name.tr"]
+        search_fields: ["teams.*.name.tr"]
+      - { name: year, label: Yıl, widget: number, value_type: int }
+      - name: summary
+        label: Kısa açıklama
+        widget: object
+        fields:
+          - { name: tr, label: Türkçe, widget: text }
+          - { name: en, label: İngilizce, widget: text, required: false }
+      - { name: cover, label: Kapak görseli, widget: image, hint: "16:9 oranında (ör. 1280×720) WebP" }
+      - name: platforms
+        label: Platformlar
+        widget: select
+        multiple: true
+        min: 1
+        options:
+          - { label: Android, value: android }
+          - { label: iOS, value: ios }
+          - { label: Web, value: web }
+          - { label: Windows, value: windows }
+          - { label: macOS, value: macos }
+          - { label: Linux, value: linux }
+      - { name: tools, label: Araçlar, widget: list, required: false, hint: "Ör: Unity, Blender" }
+      - { name: credits, label: Geliştirenler, widget: list, hint: "Ad soyad, virgülle ayırın" }
+      - name: links
+        label: Bağlantılar
+        widget: object
+        required: false
+        fields:
+          - { name: page, label: Proje sayfası, widget: string, required: false, hint: "itch.io, Google Play ya da web sitesi" }
+          - { name: source, label: Kaynak kodu, widget: string, required: false }
+          - { name: video, label: Tanıtım videosu, widget: string, required: false }
+
+  # ---------------------------------------------------------------- Blog
+  - name: blog
+    label: Blog
+    label_singular: Yazı
+    folder: content/blog
+    format: frontmatter
+    extension: md
+    create: true
+    slug: "{{slug}}"
+    summary: "{{date}} — {{title}}"
+    media_folder: /public/images/blog
+    public_folder: /images/blog
+    i18n:
+      structure: multiple_files
+    fields:
+      - { name: title, label: Başlık, widget: string, i18n: true }
+      - { name: date, label: Tarih, widget: datetime, type: date, format: "YYYY-MM-DD", i18n: duplicate }
+      - { name: author, label: Yazar, widget: string, i18n: duplicate }
+      - name: category
+        label: Kategori
+        widget: select
+        i18n: duplicate
+        options:
+          - { label: Yapay zekâ, value: ai }
+          - { label: Bulut, value: cloud }
+          - { label: Geliştirme, value: development }
+          - { label: Tasarım, value: design }
+          - { label: Topluluk, value: community }
+      - { name: tags, label: Etiketler, widget: list, required: false, i18n: true }
+      - { name: cover, label: Kapak görseli, widget: image, required: false, i18n: duplicate }
+      - { name: excerpt, label: Özet, widget: text, i18n: true }
+      - { name: body, label: Yazı, widget: markdown, i18n: true }
+
+  # ---------------------------------------------------------------- Ayarlar
+  - name: settings
+    label: Ayarlar
+    files:
+      - name: teams
+        label: Ekipler
+        file: content/teams.json
+        format: json
+        fields:
+          - name: teams
+            label: Ekipler
+            widget: list
+            summary: "{{name.tr}}"
+            fields:
+              - { name: key, label: Anahtar, widget: string, hint: "Değiştirirseniz üyelerin 'team' alanını da güncelleyin" }
+              - name: name
+                label: Ad
+                widget: object
+                fields:
+                  - { name: tr, label: Türkçe, widget: string }
+                  - { name: en, label: İngilizce, widget: string, required: false }
+              - name: description
+                label: Açıklama
+                widget: object
+                fields:
+                  - { name: tr, label: Türkçe, widget: text }
+                  - { name: en, label: İngilizce, widget: text, required: false }

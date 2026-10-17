@@ -1,0 +1,33 @@
+{
+  "id": "github",
+  "name": "GitHub Student Pack",
+  "category": "developer_tools",
+  "url": "https://education.github.com/pack",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+  "logoDark": "https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg",
+  "order": 0,
+  "summary": {
+    "tr": "Geliştirici öğrenciler için onlarca developer aracına GitHub Student Pack ile ücretsiz erişin.",
+    "en": "Access dozens of developer tools for free with the GitHub Student Pack."
+  },
+  "description": {
+    "tr": "Github Student Developer Pack öğrenci developerlar için en iyi araçları bedavaya sunmaktadır. Github Copilot Pro, JetBrains IDE'leri , Namecheap Domain'leri, DigitalOcean kredileri ve daha fazlasını bedavaya içermektedir.",
+    "en": "The GitHub Student Developer Pack offers the best tools for student developers for free. It includes GitHub Copilot Pro, JetBrains IDEs, Namecheap domains, DigitalOcean credits, and much more."
+  },
+  "steps": {
+    "tr": [
+      "education.github.com/pack adresine gidin.",
+      "\"Sign up for Student Developer Pack\" seçeneğine tıklayın.",
+      "Üniversite e-posta adresiniz veya öğrenci kimliğiniz ile öğrenci statünüzü doğrulayın."
+    ],
+    "en": [
+      "Go to education.github.com/pack.",
+      "Click \"Sign up for Student Developer Pack\".",
+      "Verify your student status with your university email address or student ID."
+    ]
+  },
+  "tags": {
+    "tr": ["Mutlaka Edinilmeli", "Bulut", "Alan Adı"],
+    "en": ["Must Have", "Cloud", "Domain"]
+  }
+}

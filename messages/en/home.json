@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "GDG on Campus DOU"
+  },
+  "hero": {
+    "title": "At Doğuş University, we learn, build, share and meet together.",
+    "kicker": "At Doğuş University,",
+    "lead": "together we",
+    "words": ["learn.", "build.", "share.", "meet."],
+    "primary": "See events",
+    "secondary": "Join the WhatsApp community",
+    "scroll": "Scroll down"
+  },
+  "posters": {
+    "title": "What we have done so far",
+    "body": "{count, plural, one {# event} other {# events}}. Posters take turns up front; browse them all below.",
+    "open": "Go to {title}",
+    "details": "Event details",
+    "prev": "Previous event",
+    "next": "Next event"
+  },
+  "what": {
+    "title": "What we do",
+    "body": "We run four kinds of events each term. Students from every department can join all of them.",
+    "count": "{count, plural, one {# event} other {# events}}",
+    "items": {
+      "workshop": "Hands-on sessions where you bring your laptop and build something from start to finish.",
+      "tech_talk": "Talks where people from the industry share their experience and projects.",
+      "summit": "Large gatherings that bring many speakers and sessions together.",
+      "trip": "Visits to tech company offices to meet their teams where they work."
+    }
+  },
+  "teams": {
+    "title": "{teams} teams, {members} people",
+    "body": "Each team works on its own projects and workshops throughout the term. Each dot is a person.",
+    "members": "{count, plural, one {# person} other {# people}}",
+    "all": "Meet the team"
+  },
+  "posts": {
+    "title": "Latest posts",
+    "body": "Posts on Google technologies from the community.",
+    "all": "All posts",
+    "reading": "{minutes} min read"
+  },
+  "join": {
+    "title": "See you at the next event",
+    "body": "New events are announced first in our WhatsApp community and on Instagram.",
+    "whatsapp": "Join the WhatsApp community",
+    "instagram": "Follow on Instagram"
+  }
+}

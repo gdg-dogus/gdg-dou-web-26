@@ -1,0 +1,41 @@
+{
+  "slug": "gdg-techverse-2025",
+  "gdgId": "108427",
+  "category": "tech_talk",
+  "date": "2025-11-18",
+  "startTime": "13:00",
+  "endTime": "15:00",
+  "title": {
+    "tr": "GDG TechVerse 2025: Büyük Ölçekli Sistemler ve Mobil Teknolojiler",
+    "en": "GDG TechVerse 2025: Large-Scale Systems and Mobile Technologies"
+  },
+  "summary": {
+    "tr": "Hepsiburada ve Akbank teknoloji liderleriyle büyük ölçekli sistemler, yüksek trafik yönetimi ve mobil teknolojiler üzerine bir oturum.",
+    "en": "A session on large-scale systems, high-traffic management, and mobile technologies with technology leaders from Hepsiburada and Akbank."
+  },
+  "description": {
+    "tr": "Hepsiburada Yazılım Geliştirme Birim Başkanı Ufuk Serdoğan ve Akbank Mobil Geliştirme Mimarı Muhittin Kuluöztürk ile büyük ölçekli sistem mimarileri, yüksek trafik yönetimi ve mobil teknolojilerdeki en güncel trendleri konuştuğumuz oturum.",
+    "en": "A session with Hepsiburada Head of Software Development Ufuk Serdogan and Akbank Mobile Development Architect Muhittin Kuluozturk where we discussed large-scale system architectures, high-traffic management, and the latest trends in mobile technologies."
+  },
+  "location": {
+    "tr": "Doğuş Üniversitesi, B2-02",
+    "en": "Doğuş University, B2-02"
+  },
+  "speakers": [
+    {
+      "name": "Ufuk Serdoğan",
+      "role": {
+        "tr": "Hepsiburada Yazılım Geliştirme Birim Başkanı",
+        "en": "Hepsiburada Head of Software Development"
+      }
+    },
+    {
+      "name": "Muhittin Kuluöztürk",
+      "role": {
+        "tr": "Akbank Mobil Geliştirme Mimarı",
+        "en": "Akbank Mobile Development Architect"
+      }
+    }
+  ],
+  "image": "/images/events/gdg-techverse-2025.webp"
+}

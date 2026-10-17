@@ -1,0 +1,114 @@
+{
+  "slug": "bulusma",
+  "category": "summit",
+  "date": "2026-10-20",
+  "startTime": "14:00",
+  "endTime": "17:00",
+  "title": {
+    "tr": "Güz Buluşması 2026",
+    "en": "Fall Meetup 2026"
+  },
+  "summary": {
+    "tr": "Yeni dönemin ilk büyük buluşması: ekipler kendini tanıtıyor, Gemini API ile canlı demo yapıyoruz ve tanışma için bolca zaman var.",
+    "en": "The first big meetup of the term: teams introduce themselves, we run a live Gemini API demo, and there is plenty of time to meet each other."
+  },
+  "description": {
+    "tr": "GDG on Campus DOU'nun güz dönemi buluşmasına hoş geldin. Bu dönem web, mobil, oyun geliştirme ve tasarım ekiplerimizle neler yapacağımızı anlatıyor, hangi projelere başlayacağımızı paylaşıyoruz.\n\nEkip kaptanlarımız kendi ekiplerinin çalışma düzenini, bu dönemki atölyelerini ve ekibe nasıl katılabileceğini anlatacak. Ardından Web Geliştirme Ekibi, Gemini API ile birkaç dakika içinde küçük bir uygulamanın nasıl yazıldığını canlı olarak gösterecek.\n\nEtkinlik her bölümden öğrenciye açık. Daha önce kod yazmamış olman sorun değil; merak etmen yeterli. Kayıt ücretsiz, kontenjan salonun kapasitesiyle sınırlı.",
+    "en": "Welcome to GDG on Campus DOU's fall meetup. We share what we will do this term with our web, mobile, game development and design teams, and which projects we are starting.\n\nOur team captains will talk about how their teams work, this term's workshops and how you can join. After that, the Web Development Team will show live how to build a small app with the Gemini API in a few minutes.\n\nThe event is open to students from every department. It is fine if you have never written code before; curiosity is enough. Registration is free and seats are limited to the room's capacity."
+  },
+  "location": {
+    "tr": "Doğuş Üniversitesi Dudullu Kampüsü, B2-03",
+    "en": "Doğuş University Dudullu Campus, B2-03"
+  },
+  "speakers": [
+    {
+      "name": "Deniz Örnek",
+      "role": {
+        "tr": "Organizatör",
+        "en": "Organizer"
+      }
+    },
+    {
+      "name": "Ada Örnek",
+      "role": {
+        "tr": "Web Geliştirme Takım Kaptanı",
+        "en": "Web Development Team Captain"
+      }
+    },
+    {
+      "name": "Elif Naz Örnek",
+      "role": {
+        "tr": "Mobil Geliştirme Takım Kaptanı",
+        "en": "Mobile Development Team Captain"
+      }
+    },
+    {
+      "name": "Mert Örnek",
+      "role": {
+        "tr": "Oyun Geliştirme Takım Kaptanı",
+        "en": "Game Development Team Captain"
+      }
+    },
+    {
+      "name": "Barış Örnek",
+      "role": {
+        "tr": "Sosyal Medya & Tasarım Takım Kaptanı",
+        "en": "Social Media & Design Team Captain"
+      }
+    }
+  ],
+  "agenda": [
+    {
+      "time": "14:00",
+      "title": {
+        "tr": "Kayıt ve karşılama",
+        "en": "Registration and welcome"
+      }
+    },
+    {
+      "time": "14:20",
+      "title": {
+        "tr": "Açılış: Bu dönem neler yapacağız",
+        "en": "Opening: What we will do this term"
+      },
+      "speaker": "Deniz Örnek"
+    },
+    {
+      "time": "14:40",
+      "title": {
+        "tr": "Ekipler kendini tanıtıyor: takım kaptanları",
+        "en": "Meet the teams: team captains"
+      }
+    },
+    {
+      "time": "15:30",
+      "title": {
+        "tr": "Canlı demo: Gemini API ile ilk uygulama (Web Geliştirme Ekibi)",
+        "en": "Live demo: Your first app with the Gemini API (Web Development Team)"
+      }
+    },
+    {
+      "time": "16:15",
+      "title": {
+        "tr": "Tanışma ve kahve",
+        "en": "Networking and coffee"
+      }
+    },
+    {
+      "time": "17:00",
+      "title": {
+        "tr": "Kapanış",
+        "en": "Closing"
+      }
+    }
+  ],
+  "image": "/images/events/bulusma.webp",
+  "registration": {
+    "url": "https://gdg.community.dev/gdg-on-campus-dogus-university-istanbul-turkiye/",
+    "open": true,
+    "label": {
+      "tr": "Ücretsiz kayıt ol",
+      "en": "Register for free"
+    }
+  }
+}

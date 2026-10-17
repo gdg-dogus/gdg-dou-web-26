@@ -1,0 +1,34 @@
+{
+  "id": "notion",
+  "name": "Notion for Education",
+  "category": "productivity",
+  "url": "https://www.notion.so/product/notion-for-education",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+  "order": 2,
+  "summary": {
+    "tr": "Notlarınız, projeleriniz ve diğer tüm işleriniz için Notion Plus planı öğrencilere bedava.",
+    "en": "The Notion Plus plan is free for students for notes, projects, and everything else you manage."
+  },
+  "description": {
+    "tr": "Notion düşüncelerinizi toplamak, ders notlarınızı almak ve planlama yapmak için kullanıcılarına ortak bir alan sağlar. Notion Plus planı ise tüm özellikleri ile beraber öğrencilere ücretsiz sunulmaktadır.",
+    "en": "Notion gives users a shared space to collect thoughts, take class notes, and plan work. The Notion Plus plan is offered free to students with all its features."
+  },
+  "steps": {
+    "tr": [
+      "Notion'a okul e-postanızla kaydolun veya hesabınızın e-postasını değiştirin.",
+      "\"Settings & Members\" > \"Upgrade\" bölümüne gidin.",
+      "\"Students & Educators\" kısmına inin ve \"Get free education plan\" seçeneğine tıklayın.",
+      "Notion Plus planının tüm özelliklerinden yararlanın."
+    ],
+    "en": [
+      "Sign up for Notion with your school email or change your account email.",
+      "Go to \"Settings & Members\" > \"Upgrade\".",
+      "Scroll to \"Students & Educators\" and click \"Get free education plan\".",
+      "Enjoy all features of the Notion Plus plan."
+    ]
+  },
+  "tags": {
+    "tr": ["Notlar", "Yönetim"],
+    "en": ["Notes", "Management"]
+  }
+}

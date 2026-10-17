@@ -1,0 +1,32 @@
+{
+  "id": "spotify",
+  "name": "Spotify Premium Student",
+  "category": "lifestyle",
+  "url": "https://www.spotify.com/us/student/",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+  "order": 5,
+  "summary": {
+    "tr": "Her anınızda müzik yanınızda. Öğrencilere özel Spotify Premium'da %50 indirim.",
+    "en": "Music by your side at every moment. Students get 50% off Spotify Premium."
+  },
+  "description": {
+    "tr": "Reklamsız müziğin, çevrimdışı dinlemenin ve sınırsız atlama hakkının keyfini çıkarın. Öğrenciler, normal Premium abonelik fiyatı üzerinden %50 indirim kazanır.",
+    "en": "Enjoy ad-free music, offline listening, and unlimited skips. Students receive a 50% discount on the regular Premium subscription price."
+  },
+  "steps": {
+    "tr": [
+      "spotify.com/student adresine gidin.",
+      "\"Get Started\" seçeneğine tıklayın.",
+      "SheerID üzerinden öğrenci kaydınızı doğrulayın."
+    ],
+    "en": [
+      "Go to spotify.com/student.",
+      "Click \"Get Started\".",
+      "Verify your student enrollment through SheerID."
+    ]
+  },
+  "tags": {
+    "tr": ["Müzik", "Eğlence"],
+    "en": ["Music", "Entertainment"]
+  }
+}

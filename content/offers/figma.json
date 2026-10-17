@@ -1,0 +1,32 @@
+{
+  "id": "figma",
+  "name": "Figma for Education",
+  "category": "design",
+  "url": "https://www.figma.com/education/",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+  "order": 3,
+  "summary": {
+    "tr": "İşbirliği için arayüz tasarım aracı. Profesyonel plan öğrenciler için ücretsiz.",
+    "en": "A collaborative interface design tool. The professional plan is free for students."
+  },
+  "description": {
+    "tr": "Figma, tasarım sürecindeki herkesi birbirine bağlayarak ekiplerin daha iyi ürünleri daha hızlı sunmasını sağlar. Öğrenciler ve eğitimciler, sınırsız dosya ve proje içeren Profesyonel planı ücretsiz edinebilir.",
+    "en": "Figma connects everyone in the design process so teams can deliver better products faster. Students and educators can get the Professional plan with unlimited files and projects for free."
+  },
+  "steps": {
+    "tr": [
+      "Bir Figma hesabı oluşturun.",
+      "figma.com/education adresine gidin.",
+      "\"Get verified\" seçeneğine tıklayın ve öğrenci statünüzü doğrulamak için adımları izleyin."
+    ],
+    "en": [
+      "Create a Figma account.",
+      "Go to figma.com/education.",
+      "Click \"Get verified\" and follow the steps to verify your student status."
+    ]
+  },
+  "tags": {
+    "tr": ["UI/UX", "İşbirliği"],
+    "en": ["UI/UX", "Collaboration"]
+  }
+}

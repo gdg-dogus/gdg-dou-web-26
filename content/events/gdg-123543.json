@@ -1,0 +1,28 @@
+{
+  "slug": "gdg-123543",
+  "gdgId": "123543",
+  "category": "trip",
+  "date": "2026-04-14",
+  "startTime": "13:00",
+  "endTime": "16:00",
+  "title": {
+    "tr": "Teknopark Istanbul Teknik Gezi"
+  },
+  "summary": {
+    "tr": "Join us for an exciting tour of Teknopark Istanbul, where innovation meets technology! Get an exclusive look at cutting-..."
+  },
+  "description": {
+    "tr": "Join us for an exciting tour of Teknopark Istanbul, where innovation meets technology! Get an exclusive look at cutting-edge developments, interact with leading tech enthusiasts, and explore opportunities for collaboration. Whether you're a tech student or a startup enthusiast, this event is perfect for you to expand your network and gain fresh insights into the industry. Don't miss out on this unique opportunity to connect and learn. Register now to reserve your spot and become a part of our growing community!"
+  },
+  "location": {
+    "tr": "Teknopark İstanbul A.Ş., No:1 Teknopark Bulvarı, Pendik"
+  },
+  "speakers": [],
+  "agenda": [],
+  "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultEventThumbnail_2_va1kAS9.png",
+  "gallery": [],
+  "registration": {
+    "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-dogus-university-istanbul-turkiye-presents-teknopark-istanbul-teknik-gezi/",
+    "open": true
+  }
+}

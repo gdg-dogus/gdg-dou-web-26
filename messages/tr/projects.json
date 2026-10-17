@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Projeler",
+    "description": "GDG on Campus DOU ekiplerinin geliştirdiği oyunlar ve uygulamalar."
+  },
+  "title": "Projeler",
+  "intro": "Ekiplerimizin geliştirip yayınladığı oyunlar ve uygulamalar.",
+  "empty": "Henüz eklenmiş bir proje yok.",
+  "details": {
+    "platforms": "Platform",
+    "tools": "Araçlar",
+    "credits": "Geliştirenler"
+  },
+  "links": {
+    "page": "Projeyi aç",
+    "source": "Kaynak kodu",
+    "video": "Tanıtım videosu"
+  },
+  "platforms": {
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "windows": "Windows",
+    "macos": "macOS",
+    "linux": "Linux"
+  }
+}

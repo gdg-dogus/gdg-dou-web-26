@@ -1,0 +1,14 @@
+{
+  "name": "Mert Örnek",
+  "team": "game",
+  "role": {
+    "tr": "Oyun Geliştirme Takım Kaptanı",
+    "en": "Game Development Team Captain"
+  },
+  "lead": true,
+  "order": 7,
+  "bio": {
+    "tr": "Oyun geliştirme etkinlikleri ve atölyelerinin koordinasyonundan sorumludur.",
+    "en": "Responsible for coordinating game development events and workshops."
+  }
+}

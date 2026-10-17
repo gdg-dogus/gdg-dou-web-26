@@ -1,0 +1,14 @@
+{
+  "name": "Efe Örnek",
+  "team": "web",
+  "role": {
+    "tr": "Web Geliştirme Ekibi",
+    "en": "Web Development Team"
+  },
+  "lead": false,
+  "order": 11,
+  "bio": {
+    "tr": "Web geliştirme süreçlerinde teknik liderlik sağlar.",
+    "en": "Provides technical leadership in web development processes."
+  }
+}

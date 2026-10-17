@@ -1,0 +1,28 @@
+{
+  "slug": "gdg-123409",
+  "gdgId": "123409",
+  "category": "tech_talk",
+  "date": "2026-05-12",
+  "startTime": "13:00",
+  "endTime": "16:00",
+  "title": {
+    "tr": "Leader's Summit'26"
+  },
+  "summary": {
+    "tr": "Join us for the Leader's Summit'26, a remarkable gathering where visionaries and thought leaders come together to shape ..."
+  },
+  "description": {
+    "tr": "Join us for the Leader's Summit'26, a remarkable gathering where visionaries and thought leaders come together to shape the future. This event features three prominent speakers: Barış Usta, Barış Refik Aykent, and Ahmet Karadağ. These trailblazers will share their insights and innovations that can redefine sectors and communities. Don't miss this incredible opportunity to engage, learn, and network with industry frontrunners. Secure your spot now and be a part of this transformative conversation to drive new ideas and growth!"
+  },
+  "location": {
+    "tr": "Doğuş Üniversitesi, 265 Nato Yolu Caddesi, Ümraniye"
+  },
+  "speakers": [],
+  "agenda": [],
+  "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultEventThumbnail_2_va1kAS9.png",
+  "gallery": [],
+  "registration": {
+    "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-dogus-university-istanbul-turkiye-presents-leaders-summit26/",
+    "open": true
+  }
+}

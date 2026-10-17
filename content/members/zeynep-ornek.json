@@ -1,0 +1,10 @@
+{
+  "name": "Zeynep Örnek",
+  "team": "mobile",
+  "role": {
+    "tr": "Ekip üyesi",
+    "en": "Team member"
+  },
+  "lead": false,
+  "order": 18
+}
