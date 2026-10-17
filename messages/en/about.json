@@ -1,8 +1,55 @@
 {
   "meta": {
     "title": "About",
-    "description": "What GDG on Campus DOU is, what it does, and how to join."
+    "description": "Learn about the GDG on Campus DOU community, its teams, events, and the experiences it offers students."
   },
-  "title": "About",
-  "intro": "GDG on Campus DOU is the Doğuş University student chapter of the Google Developer Groups program."
+  "eyebrow": "GDG on Campus DOU",
+  "title": "About us",
+  "intro": "We are a technology community at Doğuş University that brings together students interested in Google technologies, software development, and building together.",
+  "highlights": {
+    "label": "Community focus areas",
+    "teams": "Student teams",
+    "projects": "Project building",
+    "events": "Technology events"
+  },
+  "stats": {
+    "members": "Active members",
+    "events": "Events",
+    "teams": "Teams",
+    "crew": "Team members"
+  },
+  "who": {
+    "eyebrow": "Who are we?",
+    "title": "A student community that learns, shares, and builds together.",
+    "body": "GDG on Campus DOU helps students improve their technical skills through workshops, technology talks, study groups, and project teams. Our goal is to build a lasting learning culture on campus and connect students with the technology ecosystem.",
+    "cards": {
+      "learning": {
+        "title": "Learning and sharing",
+        "body": "We create and share knowledge together through workshops, presentations, and peer learning."
+      },
+      "community": {
+        "title": "Community and networking",
+        "body": "Our events bring students, alumni, and industry professionals together in the same room."
+      },
+      "projects": {
+        "title": "Project-focused teams",
+        "body": "We build throughout the semester with web, mobile, game, design, organization, and sponsorship teams."
+      }
+    }
+  },
+  "work": {
+    "eyebrow": "What do we do?",
+    "title": "From events to team projects, we offer a hands-on, build-focused experience.",
+    "items": {
+      "events": "We organize events focused on artificial intelligence, web, mobile, cloud, and careers.",
+      "teams": "We work in organization, web, mobile, game, social media, and design teams.",
+      "resources": "We share student-focused resources, opportunities, and building experiences with the community."
+    }
+  },
+  "cta": {
+    "title": "Become part of the community",
+    "body": "Follow our events, meet the teams, and start building together at GDG on Campus DOU.",
+    "events": "View events",
+    "team": "Meet the team"
+  }
 }

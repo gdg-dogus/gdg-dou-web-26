@@ -1,8 +1,55 @@
 {
   "meta": {
     "title": "Hakkımızda",
-    "description": "GDG on Campus DOU nedir, ne yapar, nasıl katılınır."
+    "description": "GDG on Campus DOU topluluğu, ekipleri, etkinlikleri ve öğrencilere sunduğu deneyimler hakkında bilgi al."
   },
+  "eyebrow": "GDG on Campus DOU",
   "title": "Hakkımızda",
-  "intro": "GDG on Campus DOU, Google Developer Groups programının Doğuş Üniversitesi'ndeki öğrenci topluluğu."
+  "intro": "Doğuş Üniversitesi'nde Google teknolojilerine, yazılım geliştirmeye ve birlikte üretmeye ilgi duyan öğrencileri bir araya getiren teknoloji topluluğuyuz.",
+  "highlights": {
+    "label": "Topluluk odakları",
+    "teams": "Öğrenci ekipleri",
+    "projects": "Proje üretimi",
+    "events": "Teknoloji etkinlikleri"
+  },
+  "stats": {
+    "members": "Aktif üye",
+    "events": "Etkinlik",
+    "teams": "Ekip",
+    "crew": "Ekip üyesi"
+  },
+  "who": {
+    "eyebrow": "Biz kimiz?",
+    "title": "Öğrenen, paylaşan ve birlikte geliştiren bir öğrenci topluluğu.",
+    "body": "GDG on Campus DOU; atölyeler, teknoloji konuşmaları, çalışma grupları ve proje ekipleriyle öğrencilerin teknik becerilerini geliştirmesine destek olur. Amacımız, kampüs içinde sürdürülebilir bir öğrenme kültürü oluşturmak ve öğrencileri teknoloji ekosistemiyle buluşturmak.",
+    "cards": {
+      "learning": {
+        "title": "Öğrenme ve paylaşım",
+        "body": "Atölyeler, sunumlar ve akran öğrenmesiyle bilgiyi birlikte üretir ve paylaşırız."
+      },
+      "community": {
+        "title": "Topluluk ve networking",
+        "body": "Etkinliklerde öğrencileri, mezunları ve sektör profesyonellerini aynı ortamda buluştururuz."
+      },
+      "projects": {
+        "title": "Proje odaklı ekipler",
+        "body": "Web, mobil, oyun, tasarım, organizasyon ve sponsorluk ekipleriyle dönem boyunca üretiriz."
+      }
+    }
+  },
+  "work": {
+    "eyebrow": "Neler yapıyoruz?",
+    "title": "Etkinliklerden ekip çalışmalarına kadar üretim odaklı bir deneyim sunuyoruz.",
+    "items": {
+      "events": "Yapay zeka, web, mobil, bulut ve kariyer odaklı etkinlikler düzenliyoruz.",
+      "teams": "Organizasyon, web, mobil, oyun, sosyal medya ve tasarım ekipleriyle çalışıyoruz.",
+      "resources": "Öğrencilere özel kaynakları, fırsatları ve üretim deneyimlerini toplulukla paylaşıyoruz."
+    }
+  },
+  "cta": {
+    "title": "Topluluğun bir parçası ol",
+    "body": "Etkinlikleri takip et, ekiplerle tanış ve GDG on Campus DOU'da birlikte üretmeye başla.",
+    "events": "Etkinlikleri gör",
+    "team": "Ekibi tanı"
+  }
 }

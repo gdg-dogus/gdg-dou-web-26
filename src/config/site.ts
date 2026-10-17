@@ -7,6 +7,8 @@ export const siteConfig = {
   repoUrl: "https://github.com/gdg-dogus",
   /** gdg.community.dev üzerindeki chapter numarası; etkinlikler buradan çekilir. */
   communityChapterId: 2744,
+  /** Hakkımızda sayfasındaki "aktif üye" sayısı (sonuna "+" eklenir). Elle güncellenir. */
+  communityMembers: 400,
   socials: {
     whatsapp: "https://chat.whatsapp.com/JL2FcOdXFxgGb72P6BxvP9",
     instagram: "https://www.instagram.com/gdgoncampusdou",
